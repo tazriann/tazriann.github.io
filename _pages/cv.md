@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: "CV"
+# layout: archive
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,8 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
+[Click here to download my CV](/files/Tazrian_Noor_CV.pdf)
 
-Education
+<iframe src="/files/Tazrian_Noor_CV.pdf" width="100%" height="1000px"></iframe>
+
+<!-- Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014
@@ -61,4 +64,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
+

@@ -1,18 +1,30 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+{% if site.author.linkedin or site.googlescholar or site.author.researchgate or site.author.orcid site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
+    {% if site.author.linkedin %}
+      <li><a href="http://linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true" style="color: #0A66C2;"></i> LinkedIn</a></li>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      <li><a href="http://scholar.google.com/citations?user=fj8Ge9QAAAAJ&hl=en&authuser=1"><i class="ai ai-google-scholar-square" aria-hidden="true"></i> Google Scholar</a></li>
+    {% endif %}
+    {% if site.author.researchgate %}
+      <li><a href="http://researchgate.net/profile/tazrian-noor"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+    {% endif %}
     {% if site.author.github %}
       <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.orcid %}
+      <li><a href="http://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
     {% endif %}
     {% if site.author.bitbucket %}
       <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
-    {% if site.atom_feed.hide != true %}
+    {% if site.atom_feed.hide != false %}
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endif %}
   </ul>
