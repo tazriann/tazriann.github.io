@@ -12,7 +12,7 @@ redirect_from:
 <div style="text-align: justify; background-color: rgba(211, 211, 211, 0.5); padding: 20px; border-radius: 15px;">
   <p> &#x1F600; &#x1F44B; <strong> Hi, Tazrian Noor here. Sincerely welcome to my personal page, which I hope will give you a full understanding of my experience and abilities. </strong></p>
 
-  <p> I received my B.Sc degree in Electrical and Engineering Degree from <a href="https://eee.iub.edu.bd/">Independent University, Bangladesh</a> with a minor in Electronics and Telecomunication Engineering in January 2024. </p>
+  <p> I received my B.Sc degree in Electrical and Engineering Degree from <a href="http://iub.ac.bd//">Independent University, Bangladesh</a> with a minor in Electronics and Telecomunication Engineering in January 2024. </p>
 
   <p> I was always curious how things work and liked delving deeper. During my third year of Bachelor's degree, I joined IUB-Photonics Simulation Lab (IUBPSL) as an undergraduate student researcher. I, along with my peers, studied unique structures to optimize Silicon and Cadmium Telluride thin film solar cells using Finite Difference Time Domain (FDTD) method.</p> 
 
