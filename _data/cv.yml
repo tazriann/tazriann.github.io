@@ -2,18 +2,27 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Tazrian Noor
+    # - name: Date of Birth
+    #   value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Bangla
+    - name: Links
+      links:
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/tazrian-noor/
+        - name: Scholar
+          link: https://scholar.google.com/citations?user=fj8Ge9QAAAAJ
+        - name: ResearchGate
+          link: https://www.researchgate.net/profile/Tazrian-Noor/
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelors of Science in Electrical and Electronic Engineering
+      institution: Independent Univesity, Bangladesh (IUB), Dhaka, Bangladesh
+      year: 2020 - 2023
       description:
         - Description 1.
         - Description 2.
@@ -21,12 +30,12 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
 - title: Experience
   type: time_table
