@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: tazriannoor02@gmail.com</p>
-    <p>Bashundhara R/A</p>
+    <p>Bashundhara R/A,</p>
     <p>Dhaka, 1229</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -44,7 +44,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
   <p> I am currently a investigating the scope of using plasmonics and other lighte trapping techniques to to enhance the optoelectronic performance of lead-free perovskite solar cells.</p>
 
-  <p> Please contact me with any questions you have about me personally or would like to discuss: <a href="tazriannoor02@gmail.com">tazriannoor02@gmail.com</a>.  </p>
-  
+  <p> Please contact me with any questions you have about me at   <a href='#'>tazriannoor02@gmail.com</a>.</p>
+
 
   <p> For more details you can <a href="/assets/cv/Tazrian_NoorCV.pdf">Download My Full Resume Here</a>.</p>
