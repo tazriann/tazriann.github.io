@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-research",
+          title: "research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "You can download my CV from the PDF icon.",
@@ -398,11 +405,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-appointed-as-research-scientist-at-iub-photonics-simulation-laboratory-iubpsl-under-the-sponsored-research-project-computational-study-using-scaps-1d-and-fdtd-to-optimize-the-opto-electronic-performance-of-multi-junction-perovskite-thin-film-solar-cells-funded-by-iub",
           title: 'Appointed as Research Scientist at IUB Photonics Simulation Laboratory (IUBPSL) under the Sponsored...',
           description: "",
